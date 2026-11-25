@@ -1,0 +1,54 @@
+# Mathlib and Lean build outputs
+/.lake/
+*.olean
+*.ilean
+*.trace
+*.c
+*.o
+*.obj
+
+# LaTeX build outputs (never commit compiled PDFs or aux artifacts)
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.pdf
+
+# Local state, private files, caches, credentials
+/.coord/
+/work/
+/Research/
+/article/
+/archive/
+/audit/
+/human_check/
+/output/
+/scratch/
+/tmp/
+**/worker_private*
+**/PRIVATE_*
+**/*.sqlite
+**/*.sqlite-wal
+**/*.sqlite-shm
+**/*.db
+**/.env
+**/.env.*
+**/*.pem
+**/*.p12
+**/*.pfx
+**/id_rsa*
+**/id_ed25519*
+**/*credential*
+**/*token*
+**/*.log
+**/__pycache__/
+**/.pytest_cache/
+**/.DS_Store
+Thumbs.db
+
+# Unreviewed drafts and staging stay outside public Git; curated papers/<paper-id>/ is allowlist-gated.
+/drafts/
+/staging/

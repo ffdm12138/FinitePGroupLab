@@ -1,0 +1,37 @@
+{
+  "schema": "FinitePGroupLabResultV1",
+  "id": "example",
+  "problem": "P02",
+  "scope": "LOCAL_LEMMA",
+  "status": "RELEASED_VERIFIED",
+  "title": "Replace with exact theorem title",
+  "statement": "Exact mathematics including all hypotheses and conclusion",
+  "asset_id": "REPLACE_WITH_PRIVATE_ASSET_ID",
+  "source_id": "REPLACE_WITH_SOURCE_ID",
+  "lean_toolchain": "leanprover/lean4:v4.34.0-rc1",
+  "mathlib_rev": "de5ce8a9a66a4aa68a9bdbb35b63a06d34d9ca11",
+  "lean_file": "FinitePGroupLab/Problems/P02/Example.lean",
+  "lean_constant": "FinitePGroupLab.Problems.P02.example",
+  "source_sha256": "REPLACE_WITH_64_HEX_DIGITS_OF_LF_LEAN_SOURCE",
+  "approved_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "parent_results": [],
+  "build_receipt": "PUBLIC_SAFE_STANDALONE_BUILD_ID",
+  "axioms_review": "PUBLIC_SAFE_RECURSIVE_AXIOMS_AUDIT_ID",
+  "semantic_review": "PUBLIC_SAFE_DISTINCT_AUTHOR_REVIEW_ID",
+  "main_acceptance": "PUBLIC_SAFE_SAME_VERSION_MAIN_ACCEPTANCE_ID",
+  "human_review": {
+    "decision": "APPROVED_FOR_PUBLIC_RELEASE",
+    "reviewer": "REPLACE_WITH_ACTUAL_HUMAN_REVIEWER",
+    "reviewed_at_utc": "REPLACE_WITH_ACTUAL_REVIEW_UTC",
+    "review_scope": "REPLACE_WITH_ACTUAL_STATEMENT_PROOF_LEAN_AND_PROVENANCE_SCOPE",
+    "reviewed_source_sha256": "REPLACE_WITH_LF_LEAN_SOURCE_SHA256",
+    "reviewed_statement_sha256": "REPLACE_WITH_UTF8_STATEMENT_SHA256",
+    "review_record_sha256": "REPLACE_WITH_LF_HUMAN_REVIEW_MD_SHA256"
+  },
+  "literature_status": "CHECKED_WITH_PRIMARY_SOURCES",
+  "original_domain_fully_covered": false
+}
